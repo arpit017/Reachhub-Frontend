@@ -4,6 +4,10 @@ import Navbar from './Navbar';
 import { Line } from 'react-chartjs-2';
 
 import { Charts } from './Charts';
+import { Linewala } from './Linewala';
+import { Flex } from '@chakra-ui/react';
+
+
 
 export const History = () => {
   const history = useSelector((state) => state.history);
@@ -27,7 +31,10 @@ console.log(history)
           ))
         }
       </div>
+      <div style={{display:"flex"}}>
+     <Linewala/>
       <Charts/>
+     </div>
     </div>
   );
 };
