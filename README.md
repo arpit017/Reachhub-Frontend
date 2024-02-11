@@ -16,7 +16,7 @@ Api-Endpoints-->
 2.https://reachhub-l2zo.onrender.com/player/{username}/rating-history: Retrieves the 30-day rating history for a specified player.
 3.https://reachhub-l2zo.onrender.com/players/rating-history-csv: Generates and provides a CSV file with the rating history for the top 50 players. Each row contains the player’s username, their rating from 30 days ago, and their rating for each subsequent day up to today.
 
-#Frontend-->
+Frontend-->
 
 Securtiy Measures-->
 1.Conditional renedering has been applied i.e you cannot got to home or download csv file without logging in.
