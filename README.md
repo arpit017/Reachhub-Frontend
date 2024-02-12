@@ -3,6 +3,7 @@ Hi I have built this application using MERN stack.
 #Backend-->
 
 Here is a swagger documnetation for better undersating of api endpints -> https://reachhub-l2zo.onrender.com/api-docs/
+Might take few seconds to start as it is deployed on render.
 
 Security Measures --> 
 1. Validation has been applied i.e if a existing users tries to signup, it will show user already in use or email/password is incorrect it will show inavlid credentials.
